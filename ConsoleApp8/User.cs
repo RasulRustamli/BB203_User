@@ -66,5 +66,10 @@ namespace ConsoleApp8
         {
             throw new NotImplementedException();
         }
+
+        public override string ToString()
+        {
+            return "dsadsa";
+        }
     }
 }

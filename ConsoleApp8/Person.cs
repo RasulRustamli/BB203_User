@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp8
 {
-    internal abstract class Person
+    internal  class Person
     {
         public int Age { get; set; }
         public string Name { get; set; }
@@ -18,8 +18,7 @@ namespace ConsoleApp8
             Name = name;
             Surname = surname;
         }
-        public abstract void SayFullname();
-        public abstract void ShowFullData();
+      
 
 
     }
